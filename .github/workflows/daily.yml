@@ -2,12 +2,13 @@ name: Daily Reminder
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # Щодня о 09:00 за Києвом (07:00 UTC)
-  workflow_dispatch:     # Додає ручний запуск з кнопки
+    - cron: '0 5 * * *'  # 07:00 Kyiv time (UTC+2)
+  workflow_dispatch:
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

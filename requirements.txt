@@ -1,3 +1,4 @@
 python-telegram-bot==20.7
 pandas
 openpyxl
+Нагадати про техогляд авто, 10.07.2025
